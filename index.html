@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f8f5" />
+    <title>MAPPA — 讓觀察留在發生的地方</title>
+    <link rel="stylesheet" href="tokens.css" />
+    <link rel="stylesheet" href="deck.css" />
+    <link rel="stylesheet" href="deck-context.css" />
+    <link rel="stylesheet" href="deck-revisions.css" />
+    <link rel="stylesheet" href="deck-ui.css" />
+  </head>
+  <body>
+    <div class="presentation-shell">
+      <main class="deck" aria-label="MAPPA 五分鐘專題簡報">
+        <section class="slide slide--hero is-active" data-slide="0" aria-label="開場">
+          <div class="hero-map-lines" aria-hidden="true">
+            <svg viewBox="0 0 1920 1080" preserveAspectRatio="none">
+              <path d="M-80 226C248 174 414 272 664 219S1103 74 1367 143s316 128 633 54" />
+              <path d="M-60 795c241-137 438-112 653-27s372 96 554-29 419-208 833-135" />
+              <path d="M276-80c17 248 138 364 211 519s107 314 33 721" />
+              <path d="M1432-40c-92 212-74 387 28 532s159 300 102 650" />
+              <path class="hero-map-line--minor" d="M84 500c288-56 494 52 719 12s377-176 626-93 312 94 530 46" />
+              <path class="hero-map-line--minor" d="M862-70c-12 184-94 301-116 447s48 270 7 438-127 225-126 337" />
+            </svg>
+          </div>
+          <div class="hero-topline">
+            <span class="brand-mark">MAPPA</span>
+            <span class="chapter-label">01 / OPENING</span>
+          </div>
+          <div class="hero-cover-copy reveal">
+            <p class="hero-cover-kicker">A PLACE-BASED SOCIAL EXPERIENCE</p>
+            <h1>MAPPA</h1>
+            <p class="hero-cover-subtitle">把走過的地方，<br />種成一棵會長大的記憶。</p>
+          </div>
+          <div class="hero-location reveal reveal--delay-1" aria-hidden="true">
+            <div class="hero-seed-wrap">
+              <img class="hero-seed" src="assets/tree-00-clean.png" alt="" />
+            </div>
+            <svg class="hero-reticle" viewBox="0 0 320 320">
+              <line x1="160" y1="22" x2="160" y2="298" />
+              <line x1="22" y1="160" x2="298" y2="160" />
+              <circle cx="160" cy="160" r="56" />
+              <circle class="hero-reticle-dot" cx="160" cy="160" r="8" />
+            </svg>
+            <span class="hero-coordinate-label">24.1437° N<br />120.6712° E</span>
+          </div>
+          <div class="hero-qr-group">
+            <a class="qr-reserve qr-reserve--hero qr-reserve--live" href="https://miaochenyou.github.io/MAPPA-demo/" target="_blank" rel="noreferrer" aria-label="掃描或點擊進入 MAPPA">
+              <img src="assets/mappa-qr.png" alt="MAPPA landing page QR Code" />
+            </a>
+            <span>LIVE DEMO</span>
+          </div>
+          <aside class="speaker-note">
+            MAPPA 從一個很簡單的想法開始：如果每一次停下來觀察，都能留在它真正發生的地方，並慢慢長成一棵樹呢？
+          </aside>
+        </section>
+
+        <section class="slide slide--data slide--habits" data-slide="1" aria-label="快速社群改變使用習慣">
+          <div class="slide-header">
+            <span class="brand-mark">MAPPA</span>
+            <span class="chapter-label">02 / CONTEXT</span>
+          </div>
+          <h2 class="slide-title reveal">社群變快後，使用習慣也改變了</h2>
+          <div class="habit-shift">
+            <article class="habit-item reveal reveal--delay-1">
+              <div class="habit-icon" aria-hidden="true">
+                <svg viewBox="0 0 240 240">
+                  <path class="icon-main" d="M112 47c-15-13-39-3-38 18-18 3-25 27-10 39-10 17 2 37 21 36 5 18 30 23 42 7 15 8 34-3 33-21 17-7 18-32 2-41 6-20-15-37-32-29-4-9-9-13-16-9-7 5-8 20-2 29-13 1-23 10-22 22" />
+                  <path class="icon-detail" d="M86 82c9-8 22-6 27 4m-27 30c8 6 20 6 27-1m20-34c8 1 15 8 16 16m-17 22c9 1 17 7 19 15" />
+                  <rect class="icon-card" x="164" y="42" width="62" height="38" rx="9" />
+                  <rect class="icon-card" x="158" y="128" width="60" height="38" rx="9" />
+                  <path class="icon-accent" d="M194 80l-25 15m19 71l-24 13" />
+                </svg>
+              </div>
+              <span class="habit-kicker">持續接收</span>
+              <h3>休息時，資訊仍在進入</h3>
+              <p>自動播放・演算法推薦</p>
+            </article>
+            <article class="habit-item reveal reveal--delay-2">
+              <div class="habit-icon" aria-hidden="true">
+                <svg viewBox="0 0 240 240">
+                  <path class="icon-corner" d="M56 83V54h29m98 29V54h-29M56 157v29h29m98-29v29h-29" />
+                  <circle class="icon-main" cx="120" cy="99" r="31" />
+                  <path class="icon-main" d="M71 173c8-29 25-43 49-43s41 14 49 43" />
+                </svg>
+              </div>
+              <span class="habit-kicker">經營呈現</span>
+              <h3>分享時，也開始思考如何被看見</h3>
+              <p>觸及・個人形象・合作</p>
+            </article>
+          </div>
+          <p class="habit-question reveal reveal--delay-3">我們是在休息，還是在持續接收？</p>
+          <div class="habit-evidence reveal reveal--delay-3" aria-label="短影音使用數據">
+            <p><strong>58.04%</strong><span>每天觀看短影音</span></p>
+            <i></i>
+            <p><strong>56.09%</strong><span>經常看得比預期更久</span></p>
+          </div>
+          <p class="source-note">2025 台灣網路報告｜TWNIC｜n=2,142／n=1,681</p>
+          <span class="slide-index">02</span>
+          <aside class="speaker-note">
+            社群原本讓人記錄與分享日常，現在也加入了推薦、觸及、個人形象與合作等角色。這不代表後來的用途比較不好，而是平台節奏和使用期待變得更多。對觀看者來說，自動播放與推薦讓休息時間仍持續接收資訊；對分享者來說，也更容易在意一則內容會不會被看見。2025 台灣網路報告顯示，58.04% 的台灣民眾每天觀看短影音，在短影音使用者中，56.09% 表示經常看得比原本預期更久。我想提出的問題是：當資訊一支接著一支進來，我們是在休息，還是在持續處理內容？MAPPA 想補上一種不必先考慮流量、可以回到地點與感受的記錄方式。
+          </aside>
+        </section>
+<section class="slide slide--reveal" data-slide="2" aria-label="MAPPA 概念">
+          <div class="slide-header">
+            <span class="brand-mark">MAPPA</span>
+            <span class="chapter-label">03 / IDEA</span>
+          </div>
+          <div class="idea-copy reveal">
+            <span class="idea-name">MAPPA</span>
+            <h2>MAPPA 讓觀察<br />留在發生的地方</h2>
+            <div class="location-line">
+              <i></i>
+              <span>24.14381° N</span>
+              <span>120.66693° E</span>
+            </div>
+          </div>
+          <div class="idea-visual reveal reveal--delay-1">
+            <div class="phone-halo"></div>
+            <div class="landing-phone" aria-label="在手機框內播放的 MAPPA Landing Page">
+              <video autoplay loop muted playsinline preload="auto" poster="assets/landing-poster.jpg" aria-label="MAPPA Landing Page 街景背景影片">
+                <source src="assets/landing.mp4" type="video/mp4" />
+              </video>
+              <div class="landing-phone__shade" aria-hidden="true"></div>
+              <div class="landing-phone__content">
+                <strong>MAPPA</strong>
+                <p>把走過的地方，<br />種成一棵會長大的記憶。</p>
+                <span>開始探索 →</span>
+              </div>
+            </div>
+            <img class="floating-tree" src="assets/tree-04.png" alt="MAPPA 成熟回憶樹" />
+            <span class="location-dot" aria-hidden="true"></span>
+          </div>
+          <span class="slide-index">03</span>
+          <aside class="speaker-note">
+            MAPPA 是一款以地點為核心的私人觀察地圖。文字、照片、錄音或影片不只出現在動態牆上，而是留在真正發生的地方，等待未來再次被看見。
+          </aside>
+        </section>
+
+        <section class="slide slide--growth" data-slide="3" aria-label="觀察與生長">
+          <div class="slide-header">
+            <span class="brand-mark">MAPPA</span>
+            <span class="chapter-label">04 / SYSTEM</span>
+          </div>
+          <h2 class="slide-title reveal">每段觀察都能在地點生長</h2>
+          <div class="growth-line" aria-label="從種子到回憶樹的五個階段">
+            <article class="growth-stage reveal reveal--delay-1">
+              <img src="assets/tree-00-clean.png" alt="種子階段" />
+              <span>0</span>
+            </article>
+            <article class="growth-stage reveal reveal--delay-2">
+              <img src="assets/tree-01-clean.png" alt="發芽階段" />
+              <span>1</span>
+            </article>
+            <article class="growth-stage reveal reveal--delay-3">
+              <img src="assets/tree-02-clean.png" alt="幼苗階段" />
+              <span>3</span>
+            </article>
+            <article class="growth-stage reveal reveal--delay-4">
+              <img src="assets/tree-03.png" alt="幼樹階段" />
+              <span>6</span>
+            </article>
+            <article class="growth-stage growth-stage--mature reveal reveal--delay-5">
+              <img src="assets/tree-04.png" alt="茂盛回憶樹階段" />
+              <span>10</span>
+            </article>
+          </div>
+          <div class="system-words reveal reveal--delay-3">
+            <span>地點</span><i></i><span>觀察</span><i></i><span>生長</span>
+          </div>
+          <span class="slide-index">04</span>
+          <aside class="speaker-note">
+            每個地點從一顆種子開始。有效觀察逐漸累積，種子會發芽、長成幼苗，最後成為一棵回憶樹。這個成長呈現內容與時間的累積，不代表人氣或排名。
+          </aside>
+        </section>
+
+        <section class="slide slide--flow" data-slide="4" aria-label="觀察成為地方故事">
+          <div class="slide-header">
+            <span class="brand-mark">MAPPA</span>
+            <span class="chapter-label">05 / FLOW</span>
+          </div>
+          <h2 class="slide-title reveal">觀察，長成地方的故事</h2>
+          <div class="phone-flow">
+            <figure class="flow-step reveal reveal--delay-1">
+              <img class="phone" src="assets/phone-map-flow.png" alt="在 MAPPA 地圖發現地點" />
+              <figcaption><b>01</b><span>發現</span></figcaption>
+            </figure>
+            <span class="flow-arrow reveal reveal--delay-2" aria-hidden="true">→</span>
+            <figure class="flow-step flow-step--focus reveal reveal--delay-2">
+              <img class="phone" src="assets/phone-record-flow.png" alt="在 MAPPA 快速記錄觀察" />
+              <figcaption><b>02</b><span>記錄</span></figcaption>
+            </figure>
+            <span class="flow-arrow reveal reveal--delay-3" aria-hidden="true">→</span>
+            <figure class="flow-step reveal reveal--delay-3">
+              <div class="phone phone--article-list"><img src="assets/place-story-list-screen.png" alt="點擊 MAPPA 地圖樹後進入的 302 寢室故事列表" /></div>
+              <figcaption><b>03</b><span>生長</span></figcaption>
+            </figure>
+          </div>
+          <span class="slide-index">05</span>
+          <aside class="speaker-note">
+            使用者先從地圖發現一棵樹，留下當下的照片、聲音或文字。這段內容會留在它發生的地方，加入這棵樹的故事列表，讓下一個來到這裡的人也能重新遇見。
+          </aside>
+        </section>
+
+        <section class="slide slide--rewards" data-slide="5" aria-label="觀察成就與種子獎勵">
+          <div class="slide-header">
+            <span class="brand-mark">MAPPA</span>
+            <span class="chapter-label">06 / REWARDS</span>
+          </div>
+          <h2 class="slide-title reveal">觀察，也會帶回新的種子</h2>
+          <div class="reward-equation reveal reveal--delay-1" aria-label="留下觀察、完成成就、解鎖種子">
+            <span>留下觀察</span><i>＋</i><span>完成成就</span><i>→</i><strong>解鎖種子</strong>
+          </div>
+          <div class="seed-gallery" aria-label="MAPPA 六種成就種子">
+            <figure class="seed-card reveal reveal--delay-1"><img src="assets/seed-cherry.png" alt="櫻花種子" /><figcaption>櫻花種子</figcaption></figure>
+            <figure class="seed-card reveal reveal--delay-2"><img src="assets/seed-goldfish.png" alt="氣泡魚苗" /><figcaption>氣泡魚苗</figcaption></figure>
+            <figure class="seed-card reveal reveal--delay-3"><img src="assets/seed-fire.png" alt="火苗種子" /><figcaption>火苗種子</figcaption></figure>
+            <figure class="seed-card reveal reveal--delay-3"><img src="assets/seed-cat.png" alt="貓貓偽裝種子" /><figcaption>貓貓偽裝</figcaption></figure>
+            <figure class="seed-card reveal reveal--delay-4"><img src="assets/seed-laundry.png" alt="襪子種子" /><figcaption>襪子種子</figcaption></figure>
+            <figure class="seed-card reveal reveal--delay-5"><img src="assets/seed-umbrella.png" alt="雨傘種子" /><figcaption>雨傘種子</figcaption></figure>
+          </div>
+          <p class="reward-line reveal reveal--delay-3">不是排名，是下一次出門觀察的小理由。</p>
+          <span class="slide-index">06</span>
+          <aside class="speaker-note">
+            MAPPA 用成就與種子，增加繼續觀察的意願。例如留下三張照片會獲得櫻花種子，在三個不同地點留下觀察會獲得氣泡魚苗，連續三天記錄則能得到火苗種子。種子會長成不同外觀的樹，讓獎勵回到地圖與故事本身。這不是排行榜，也不比較誰比較受歡迎，而是替下一次出門和留意周遭提供一個小理由。
+          </aside>
+        </section>
+        <section class="slide slide--visual" data-slide="6" aria-label="視覺設計">
+          <div class="slide-header">
+            <span class="brand-mark">MAPPA</span>
+            <span class="chapter-label">07 / VISUAL</span>
+          </div>
+          <h2 class="slide-title reveal">視覺讓注意力回到內容</h2>
+          <div class="palette-centered reveal reveal--delay-1" aria-label="MAPPA 色彩搭配">
+            <figure class="color-tile color-tile--canvas"><i></i><figcaption><strong>CANVAS</strong><span>#F7F8F5</span></figcaption></figure>
+            <figure class="color-tile color-tile--surface"><i></i><figcaption><strong>SURFACE</strong><span>#FFFEFA</span></figcaption></figure>
+            <figure class="color-tile color-tile--forest"><i></i><figcaption><strong>FOREST</strong><span>#0B5A38</span></figcaption></figure>
+            <figure class="color-tile color-tile--orange"><i></i><figcaption><strong>SIGNAL</strong><span>#E87543</span></figcaption></figure>
+            <figure class="color-tile color-tile--sky"><i></i><figcaption><strong>SKY</strong><span>#9CCFE3</span></figcaption></figure>
+          </div>
+          <div class="visual-principles visual-principles--centered reveal reveal--delay-2">
+            <span>冷灰白畫布</span><span>森林綠行動</span><span>暖橘提示</span><span>天空藍呼吸</span>
+          </div>
+          <span class="slide-index">07</span>
+          <aside class="speaker-note">
+            MAPPA 以冷灰白作為主要畫布，降低長時間觀看時的刺激；森林綠用於主要行動，暖橘只在定位點與狀態提示出現，天空藍則提供地圖和自然影像之間的呼吸感。所有色塊在這裡使用相同尺寸，呈現它們屬於同一套平衡的視覺語言。
+          </aside>
+        </section>
+
+
+                <section class="slide slide--ending" data-slide="7" aria-label="現場體驗">
+          <div class="ending-ambient" aria-hidden="true"><img src="assets/observation-02.webp" alt="" /></div>
+          <div class="slide-header">
+            <span class="brand-mark">MAPPA</span>
+            <span class="chapter-label">08 / LIVE DEMO</span>
+          </div>
+          <div class="ending-copy reveal">
+            <h2>下一段觀察<br />從這裡開始</h2>
+            <a href="https://miaochenyou.github.io/MAPPA-demo/" target="_blank" rel="noreferrer">miaochenyou.github.io/MAPPA-demo/<span>↗</span></a>
+          </div>
+          <div class="ending-visual ending-visual--qr-only reveal reveal--delay-1">
+            <a class="qr-reserve qr-reserve--ending qr-reserve--live" href="https://miaochenyou.github.io/MAPPA-demo/" target="_blank" rel="noreferrer" aria-label="掃描或點擊進入 MAPPA"><img src="assets/mappa-qr.png" alt="MAPPA landing page QR Code" /></a>
+            <p>現場體驗 MAPPA</p>
+          </div>
+          <p class="ending-line reveal reveal--delay-2">也許世界沒有變，只是我們開始留意了。</p>
+          <span class="slide-index">08</span>
+          <aside class="speaker-note">
+            這是目前可以實際操作的 MAPPA Demo。你可以掃描 QR Code 進入地圖、點開一棵樹、閱讀一個地方的故事，再試著留下自己的觀察。也許世界沒有突然改變，只是我們開始留意了。
+          </aside>
+        </section>
+
+      </main>
+    </div>
+
+    <div class="presentation-controls" aria-label="簡報控制列">
+      <button type="button" data-action="previous" aria-label="上一頁">←</button>
+      <div class="progress" aria-hidden="true"><span></span></div>
+      <span class="counter" aria-live="polite">01 / 08</span>
+      <button type="button" data-action="next" aria-label="下一頁">→</button>
+      <button type="button" data-action="notes" aria-label="顯示講者備忘稿">N</button>
+      <button type="button" data-action="fullscreen" aria-label="進入全螢幕">F</button>
+    </div>
+
+    <aside class="notes-panel" aria-label="講者備忘稿" aria-hidden="true">
+      <span>Speaker notes</span>
+      <p></p>
+    </aside>
+
+    <script src="deck.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+

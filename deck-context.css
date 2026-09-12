@@ -1,0 +1,151 @@
+/* Data */
+.slide--data {
+  background:
+    linear-gradient(rgba(11, 90, 56, 0.025) 1px, transparent 1px) 0 0 / 100% 54px,
+    var(--mappa-canvas);
+}
+
+.data-layout {
+  display: grid;
+  grid-template-columns: 1.04fr 0.96fr;
+  align-items: center;
+  gap: 96px;
+  height: 680px;
+}
+
+.stat-block {
+  display: flex;
+  align-items: flex-end;
+  gap: 46px;
+  padding-top: 72px;
+}
+
+.stat-block strong {
+  color: var(--mappa-forest);
+  font-size: 294px;
+  font-weight: 560;
+  letter-spacing: -0.09em;
+  line-height: 0.8;
+}
+
+.stat-block strong span {
+  display: inline-block;
+  margin-left: 20px;
+  color: var(--mappa-orange);
+  font-size: 88px;
+  letter-spacing: -0.04em;
+  transform: translateY(-112px);
+}
+
+.stat-block p {
+  margin: 0 0 8px;
+  color: var(--mappa-ink-muted);
+  font-size: 34px;
+  font-weight: 450;
+  letter-spacing: 0.02em;
+  line-height: 1.45;
+}
+
+.rest-question {
+  position: relative;
+  align-self: center;
+  min-height: 500px;
+  padding: 46px 0 24px 88px;
+  border-left: 1px solid rgba(11, 90, 56, 0.18);
+}
+
+.rest-label {
+  color: var(--mappa-forest);
+  font-size: 17px;
+  font-weight: 650;
+  letter-spacing: 0.22em;
+}
+
+.clip-meter {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 8px;
+  width: 100%;
+  height: 66px;
+  margin-top: 38px;
+}
+
+.clip-meter i {
+  display: block;
+  border: 1px solid rgba(11, 90, 56, 0.22);
+  background: rgba(11, 90, 56, 0.06);
+}
+
+.clip-meter i:nth-child(3n + 1) {
+  background: rgba(11, 90, 56, 0.16);
+}
+
+.clip-meter i:nth-child(4n) {
+  background: rgba(232, 117, 67, 0.22);
+}
+
+.rest-copy {
+  margin: 44px 0 0;
+}
+
+.rest-copy span,
+.rest-copy strong {
+  display: block;
+}
+
+.rest-copy span {
+  margin-bottom: 10px;
+  color: var(--mappa-ink-muted);
+  font-size: 25px;
+  letter-spacing: 0.06em;
+}
+
+.rest-copy strong {
+  color: var(--mappa-ink);
+  font-size: 51px;
+  font-weight: 580;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.role-evolution {
+  margin-top: 60px;
+}
+
+.role-evolution small {
+  display: block;
+  margin-bottom: 19px;
+  color: var(--mappa-ink-muted);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+}
+
+.role-evolution p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0;
+  color: var(--mappa-forest);
+  font-size: 21px;
+  font-weight: 540;
+  letter-spacing: 0.05em;
+}
+
+.role-evolution p i {
+  width: 18px;
+  height: 1px;
+  background: rgba(11, 90, 56, 0.28);
+}
+.source-note {
+  position: absolute;
+  left: var(--pad-x);
+  bottom: 30px;
+  margin: 0;
+  color: var(--mappa-ink-muted);
+  font-size: 17px;
+  letter-spacing: 0.04em;
+}
+
+
+

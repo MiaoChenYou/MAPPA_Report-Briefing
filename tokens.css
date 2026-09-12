@@ -1,0 +1,27 @@
+:root {
+  --mappa-canvas: #f7f8f5;
+  --mappa-surface: #fffefa;
+  --mappa-surface-muted: #f1f4ef;
+  --mappa-forest: #0b5a38;
+  --mappa-forest-strong: #07482d;
+  --mappa-forest-soft: #7e9288;
+  --mappa-orange: #e87543;
+  --mappa-sky: #9ccfe3;
+  --mappa-ink: #17221e;
+  --mappa-ink-muted: #6a746f;
+  --mappa-border: #e2e7e3;
+  --mappa-font-sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --mappa-weight-regular: 400;
+  --mappa-weight-medium: 500;
+  --mappa-weight-semibold: 600;
+  --mappa-display: 112px;
+  --mappa-h1: 72px;
+  --mappa-h2: 48px;
+  --mappa-body: 32px;
+  --mappa-caption: 24px;
+  --mappa-surface-primary: var(--mappa-canvas);
+  --mappa-surface-raised: var(--mappa-surface);
+  --mappa-border-subtle: var(--mappa-border);
+  --mappa-action-primary: var(--mappa-forest);
+  --mappa-accent: var(--mappa-orange);
+}
