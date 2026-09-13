@@ -261,7 +261,7 @@
   display: grid;
   grid-template-columns: repeat(3, 240px);
   justify-content: center;
-  gap: 34px;
+  gap: 56px;
 }
 
 .color-tile {
