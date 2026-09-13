@@ -259,7 +259,7 @@
   right: var(--pad-x);
   left: var(--pad-x);
   display: grid;
-  grid-template-columns: repeat(5, 240px);
+  grid-template-columns: repeat(3, 240px);
   justify-content: center;
   gap: 34px;
 }
@@ -298,19 +298,9 @@
   letter-spacing: 0.08em;
 }
 
-.color-tile--canvas > i { background: #f7f8f5; }
 .color-tile--surface > i { background: #fffefa; }
 .color-tile--forest > i { background: #0b5a38; }
 .color-tile--orange > i { background: #e87543; }
-.color-tile--sky > i { background: #9ccfe3; }
-
-.visual-principles--centered {
-  right: 0;
-  bottom: 142px;
-  left: 0;
-  justify-content: center;
-  gap: 56px;
-}
 
 /* QR-led ending */
 .ending-visual--qr-only {
