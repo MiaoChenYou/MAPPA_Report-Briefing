@@ -255,7 +255,7 @@
 /* Centered color system */
 .palette-centered {
   position: absolute;
-  top: 344px;
+  top: 404px;
   right: var(--pad-x);
   left: var(--pad-x);
   display: grid;
